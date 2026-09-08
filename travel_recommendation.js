@@ -146,7 +146,8 @@ function buildCard(item) {
   const image = document.createElement("img");
   image.src = item.imageUrl;
   image.alt = item.name;
-  image.loading = "lazy";
+  // Not lazy-loaded on purpose: the cards are built while the results panel is
+  // still hidden, so a lazy image never intersects the viewport and stays blank.
 
   const body = document.createElement("div");
   body.className = "card__body";
