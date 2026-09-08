@@ -1,0 +1,90 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "cities": [
+        {
+          "name": "Sydney, Australia",
+          "imageUrl": "images/sydney.jpg",
+          "description": "Home of the Opera House and Harbour Bridge, with harbourside walks and Bondi beach a short ride away.",
+          "timeZone": "Australia/Sydney"
+        },
+        {
+          "name": "Melbourne, Australia",
+          "imageUrl": "images/melbourne.jpg",
+          "description": "Australia's arts capital, known for laneway coffee, street art and a riverside skyline that lights up at night.",
+          "timeZone": "Australia/Melbourne"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo, Japan",
+          "imageUrl": "images/tokyo.jpg",
+          "description": "A city of neon crossings and quiet shrines, where Mount Fuji shows itself over the skyline on clear days.",
+          "timeZone": "Asia/Tokyo"
+        },
+        {
+          "name": "Kyoto, Japan",
+          "imageUrl": "images/kyoto.jpg",
+          "description": "The old imperial capital, famous for wooden machiya houses, tea gardens and the torii tunnels of Fushimi Inari.",
+          "timeZone": "Asia/Tokyo"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brazil",
+      "cities": [
+        {
+          "name": "Rio de Janeiro, Brazil",
+          "imageUrl": "images/rio-de-janeiro.jpg",
+          "description": "Framed by granite peaks and the Atlantic, with Christ the Redeemer watching over the bay from Corcovado.",
+          "timeZone": "America/Sao_Paulo"
+        },
+        {
+          "name": "Sao Paulo, Brazil",
+          "imageUrl": "images/sao-paulo.jpg",
+          "description": "South America's largest city and its cultural engine, with world-class museums, markets and restaurants.",
+          "timeZone": "America/Sao_Paulo"
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "images/angkor-wat.jpg",
+      "description": "The largest religious monument on earth, best seen at sunrise when the towers double in the reflecting pool.",
+      "timeZone": "Asia/Phnom_Penh"
+    },
+    {
+      "id": 2,
+      "name": "Taj Mahal, India",
+      "imageUrl": "images/taj-mahal.jpg",
+      "description": "A white marble mausoleum in Agra, built by Shah Jahan for Mumtaz Mahal and mirrored in its long reflecting pool.",
+      "timeZone": "Asia/Kolkata"
+    }
+  ],
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "images/bora-bora.jpg",
+      "description": "A volcanic island ringed by a turquoise lagoon, known for overwater bungalows and clear snorkelling water.",
+      "timeZone": "Pacific/Tahiti"
+    },
+    {
+      "id": 2,
+      "name": "Copacabana Beach, Brazil",
+      "imageUrl": "images/copacabana.jpg",
+      "description": "Four kilometres of sand curving through Rio de Janeiro, busy with football, beach vendors and evening crowds.",
+      "timeZone": "America/Sao_Paulo"
+    }
+  ]
+}

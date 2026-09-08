@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us — Wayfare</title>
+  <meta name="description" content="Get in touch with the Wayfare team by email, phone or the contact form.">
+  <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a class="navbar__brand" href="travel_recommendation.html">
+      <span class="navbar__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="9"></circle>
+          <path d="M15.5 8.5l-2 5.5-5.5 2 2-5.5z"></path>
+        </svg>
+      </span>
+      Wayfare
+    </a>
+
+    <!-- Task 4 note: inner pages carry Home / About Us / Contact Us only,
+         no search bar and no Search / Clear buttons. -->
+    <ul class="navbar__links">
+      <li><a href="travel_recommendation.html">Home</a></li>
+      <li><a href="travel_recommendation_about.html">About Us</a></li>
+      <li><a href="travel_recommendation_contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== Task 5: Contact Us ======================================== -->
+  <main class="page">
+    <div class="page__inner">
+      <h1>Contact Us</h1>
+      <p class="page__lead">
+        Questions about a destination, a correction to one of our listings, or a
+        place you think we should add? Send it over — a person reads every message.
+      </p>
+
+      <div class="contact-grid">
+        <form class="form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your full name" required>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us what you need help with." required></textarea>
+          </div>
+
+          <button class="btn btn--search" type="submit">Submit</button>
+          <p class="form__note" id="formNote" role="status"></p>
+        </form>
+
+        <aside class="contact-details">
+          <h2>Reach us directly</h2>
+          <p>
+            <strong>Email</strong><br>
+            <a href="mailto:hello@wayfare.example">hello@wayfare.example</a>
+          </p>
+          <p>
+            <strong>Phone</strong><br>
+            +1 (915) 555-0142
+          </p>
+          <p>
+            <strong>Office</strong><br>
+            221 Mesa Street, Suite 4<br>
+            El Paso, TX 79901
+          </p>
+          <p style="margin-bottom:0">
+            <strong>Hours</strong><br>
+            Monday to Friday, 9am – 5pm MT
+          </p>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>
